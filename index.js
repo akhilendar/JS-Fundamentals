@@ -84,3 +84,18 @@ let niat1 = function(a,b){
 // 3. Arrow function
 
 let arrFun = a => "Hello"
+
+//4. HOF
+
+const add = (fun, x, y) =>{
+    return fun(x,y)
+}
+
+console.log(add((x,y)=>x+y, 2, 3))
+
+//---------
+// 5. Pure function
+
+const fun = (x,y) =>{
+    return x+y
+}
