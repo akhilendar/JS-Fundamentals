@@ -12,7 +12,7 @@ console.log(fun1(5)(6)(7))  //parameter
 
 //-----------
 
-Call, Apply, & Bind
+// Call, Apply, & Bind
 
 let bankEmployee = {
     name : "Akhil",
@@ -32,15 +32,15 @@ bankEmployee.checkBalance.call(user, "Hello")
 bankEmployee.checkBalance.apply(user, ["Hi Everyone"])
 bankEmployee.checkBalance.bind(user, "Good Morning")()
 
--------------
-/TyPe Coercion
+// -------------
+// /TyPe Coercion
 console.log("5" + 5)  //num -> string 55
 console.log("5" - 5)  // string -> number
 console.log(true +1)  //boolean -> number
 
-----
+// ----
 
-Promises
+// Promises
 let var1 = new Promise((req, res)=>{
     setTimeout(()=>{
         res("Done")
@@ -49,7 +49,7 @@ let var1 = new Promise((req, res)=>{
 
 var1.then(console.log)
 
-async and await
+// async and await
 
 const url = "https://dummyjson.com/products"
 
